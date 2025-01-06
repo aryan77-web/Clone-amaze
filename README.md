@@ -177,6 +177,242 @@
       <a>Interest-Based Ads</a>
    </div> 
    <div>
+#html codes above
+ #css codes below      
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+height: 60px;
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 1340px;
+}
+ .nav-logo{height: 50px;
+width:100px;} 
+.border-hover{
+    border:1.5px solid white
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    width: 110px;
+    height: 50px;
+    background-size: cover;
+}
+.add-first{
+    color:white;
+    font-size: 0.85rem;
+    height: 18px;
+    margin-left: 18px;
+}
+.add-second{
+    font-size: 1rem;
+  height: 15px;
+  margin-left: 1px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    margin-left: 14px;
+}
+.nav-search{display: flex;
+/* background-color: orange; */
+height: 40px;
+/* border-radius: 4px; */
+justify-content: space-evenly;
+
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    margin-left: 20px;
+    width:40px;
+}
+.search-int{
+    width:500px;
+    font-size: 1rem;
+}
+.search-icon{
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.flag i{font-size: 20px;
+color: peachpuff;}
+span{
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.panel{
+    height: 39px;
+    background-color: #222f22;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1340px;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 14px;
+  
+}
+.panel-deal{
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 115px;
+}
+.hero-sec{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    width: 1340px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+.box{
+    /* border:2px solid black; */
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+.shopping{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+   }
+.box-img{
+    height: 350px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p {
+    color: #007185;
+}
+.footer{
+    margin-top: 15px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
+ul p{
+    font-weight: 700;
+}
+ul{
+    margin-top: 15px;
+}
+.footpanel3{
+    background-color: #222f3d;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex
+}
+.logo1{
+    background-image: url("amazon_logo.png");
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.footpanel4{
+    background-color:  #0f1111;
+    color: white;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+    height: 80px;
+}
+.pages{
+    font-size: 0.7rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    align-items: center;
+    text-align: center;
+    padding-top:5px;
+}
+       
    <div class="copyright">
       ©1996-2024, Amazon.com, Inc. or its affiliates</div>
    </div>
